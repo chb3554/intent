@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+
+        android:id="@+id/editNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자1" />
+
+    <EditText
+
+        android:id="@+id/editNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자2" />
+
+    <RadioGroup
+
+        android:id="@+id/rdoGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/btnplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="더하기"/>
+
+        <RadioButton
+            android:id="@+id/btnminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="빼기" />
+
+        <RadioButton
+            android:id="@+id/btnmul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="곱하기"/>
+
+        <RadioButton
+            android:id="@+id/btndiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나누기"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"/>
+
+
+</LinearLayout>
